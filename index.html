@@ -2,19 +2,21 @@
 <html>
 	<head>
 		<title>All About Technology</title>
-		<link rel="stylesheet" type="text/css" href="css/960grid/960_12_col.css">
-		<link rel="stylesheet" type="text/css" href="css/960grid/960_16_col.css">
-		<link rel="stylesheet" type="text/css" href="css/960grid/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/960grid/text.css">
-		<link rel="stylesheet" type="text/css" href="css/crunch.css">
+		<link rel="stylesheet" type="text/css" href="./css/960grid/960_12_col.css">
+		<link rel="stylesheet" type="text/css" href="./css/960grid/960_16_col.css">
+		<link rel="stylesheet" type="text/css" href="./css/960grid/reset.css">
+		<link rel="stylesheet" type="text/css" href="./css/960grid/text.css">
+		<link rel="stylesheet" type="text/css" href="./css/crunch.css">
 		<meta charset="utf-8">
 	</head>
 	<body>
 		<div class="container_12">
 			<header>
-				<img src="images/logo/tech.jpg" alt="TecH Crunch" class="grid_2 alpha"/ >
-				<nav>
-					<div class="navigation grid_6">
+				<div class="grid_2 alpha logo">
+					<img src="./images/logo/tech.jpg" alt="TecH Crunch" / >
+				</div>
+				<nav class="grid_10 omega">
+					<div class="grid_6 alpha navigation">
 						<ul>
 							<li><a href="#">News</a></li>
 							<li><a href="#">Video</a></li>
@@ -22,37 +24,43 @@
 							<li><a href="#">Crunchbase</a></li>
 						</ul>
 					</div>
-					<div class="search grid_4 omega">
+					<div class="grid_4 omega search">
 						<input type="text" name="search" placeholder="Search">
-						<img src="images/icons/search-icon.jpg">
+						<img src="./images/icons/search-icon.jpg" alt="search icon">
 					</div>
 				</nav>
 			</header>
+
 		</div>
+		<!-- video element is placed here-->
 		<div class="container_12">
 			<div  class="grid_7 alpha">
 				<h2>VIDEO Blacklane</h2>
-				<video width="500" controls>
-					<source src="video/techvideo.MP4">
+				<video class="videotech" controls>
+					<source src="./video/techvideo.MP4" alt="tech video">
 				</video>
-			</div>
+			</div> 
 
 			<div class="grid_5 omega sidebar">
 				<h2 class="grid_5">Featured Stories</h2>
 				<table>
 					<tr>
 						<td>
-							<img src="images/insight.jpg" class="grid_2 alpha sidebarimage">
+							<div class="grid_2 alpha sidebarimage">
+								<img src="./images/insight.jpg" alt="insight.jpg">
+							</div>
 							<div class="grid_3 omega">
 								<span>The insight-industrial complex
 								<span class="author"> by Jon Evans</span></span>
 							</div>
 						</td>
 					</tr>
-				
+				<!-- first row is done-->
 					<tr>
 						<td>
-							<img src="images/elon.png" class="grid_2 alpha sidebarimage">
+							<div class="grid_2 alpha sidebarimage">
+								<img src="images/elon.png" alt="elon.jpg">
+							</div>
 							<div class="grid_3 omega">
 								<span>Elon Musk's Boring Co. flamethrower is Real
 								<span class="author"> by Darell Etherington</span></span>
@@ -62,7 +70,9 @@
 
 					<tr>
 						<td>
-							<img src="images/starwars.jpg" class="grid_2 alpha sidebarimage" >
+							<div class="grid_2 alpha sidebarimage">
+								<img src="./images/starwars.jpg" alt="starwars.jpg">
+							</div>
 							<div class="grid_3 omega">
 								<span>Sphere CEO on Star Wars to schools
 								<span class="author"> by Brian Heater</span></span>
@@ -72,7 +82,9 @@
 				
 					<tr>
 						<td>
-							<img src="images/tryophobia.jpg" class="grid_2 alpha sidebarimage">
+							<div class="grid_2 alpha sidebarimage">
+								<img src="./images/tryophobia.jpg" alt="tryophobia.jpg">
+							</div>
 							<div class="grid_3 omega">
 								<span>Social Media is giving us tryophobia
 								<span class="author"> by Jon Evans</span></span>
@@ -84,7 +96,7 @@
 		</div>
 
 		<div class="container_12">
-			<article class="container_12 article1">
+			<article class="container_12 article">
 				<div class="grid_9 alpha">	
 					<h2>Goxip raises $5M led by Meitu to build an influencer marketing platform for fashion in Asia</h2>
 					<span class="author">Jon Russell</span>
@@ -92,16 +104,18 @@
 						<a href="read-more">Read More</a>
 					</p>
 					<ul>
-						<li><img src="images/icons/twitter.png"></li>
-						<li><img src="images/icons/tumblr.png"></li>
-						<li><img src="images/icons/pinterest.png"></li>
-						<li><img src="images/icons/linkedin.jpg"></li>
+						<li><img src="./images/icons/twitter.png" alt="twitter logo"></li>
+						<li><img src="./images/icons/tumblr.png" alt="tumblr logo"></li>
+						<li><img src="./images/icons/pinterest.png" alt="pinterest logo"></li>
+						<li><img src="./images/icons/linkedin.jpg" alt="linkedin logo"></li>
 					</ul>
 				</div>
-				<img src="images/goxip.jpg" class="grid_3 omega">
+				<div class="grid_3 omega">
+					<img src="./images/goxip.jpg" alt="goxip.jpg">
+				</div>
 			</article>
 
-			<article class="container_12 article2">
+			<article class="container_12 article">
 				<div class="grid_9 alpha">	
 					<h2>Fitness app Strava exposes the location of military bases</h2>
 					<span class="author">Jon Russell</span>
@@ -109,16 +123,18 @@
 						<a href="read-more">Read More</a>
 					</p>
 					<ul>
-						<li><img src="images/icons/twitter.png"></li>
-						<li><img src="images/icons/tumblr.png"></li>
-						<li><img src="images/icons/pinterest.png"></li>
-						<li><img src="images/icons/linkedin.jpg"></li>
+						<li><img src="./images/icons/twitter.png" alt="twitter logo"></li>
+						<li><img src="./images/icons/tumblr.png" alt="tumblr logo"></li>
+						<li><img src="./images/icons/pinterest.png" alt="pinterest logo"></li>
+						<li><img src="./images/icons/linkedin.jpg" alt="linkedin logo"></li>
 					</ul>
 				</div>
-				<img src="images/strava.jpg" class="grid_3 omega">
+				<div class="grid_3 omega">
+					<img src="./images/strava.jpg" alt="strava.jpg">
+				</div>
 			</article>
 
-			<article class="container_12 article3">
+			<article class="container_12 article">
 				<div class="grid_9 alpha">	
 					<h2>Google confirms investment in Indonesia’s ride-hailing leader Go-Jek </h2>
 					<span class="author"> Jon Russell</span>
@@ -126,16 +142,18 @@
 						<a href="read-more">Read More</a>
 					</p>
 					<ul>
-						<li><img src="images/icons/twitter.png"></li>
-						<li><img src="images/icons/tumblr.png"></li>
-						<li><img src="images/icons/pinterest.png"></li>
-						<li><img src="images/icons/linkedin.jpg"></li>
+						<li><img src="./images/icons/twitter.png" alt="twitter logo"></li>
+						<li><img src="./images/icons/tumblr.png" alt="tumblr logo"></li>
+						<li><img src="./images/icons/pinterest.png" alt="pinterest logo"></li>
+						<li><img src="./images/icons/linkedin.jpg" alt="linkedin logo"></li>
 					</ul>
 				</div>
-				<img src="images/gojek.jpg" class="grid_3 omega">
+				<div class="grid_3 omega">
+					<img src="./images/gojek.jpg" alt="gojek.jpg">
+				</div>
 			</article>
 
-			<article class="container_12 article3">
+			<article class="container_12 article">
 				<div class="grid_9 alpha">
 					<h2>The Lifeblood Of Fast-Growing Digital Marketplaces</h2>
 					<span class="author">Paysafe</span>
@@ -143,16 +161,18 @@
 						<a href="read-more">Read More</a>
 					</p>
 					<ul>
-						<li><img src="images/icons/twitter.png"></li>
-						<li><img src="images/icons/tumblr.png"></li>
-						<li><img src="images/icons/pinterest.png"></li>
-						<li><img src="images/icons/linkedin.jpg"></li>
+						<li><img src="./images/icons/twitter.png" alt="twitter logo"></li>
+						<li><img src="./images/icons/tumblr.png" alt="tumblr logo"></li>
+						<li><img src="./images/icons/pinterest.png" alt="pinterest logo"></li>
+						<li><img src="./images/icons/linkedin.jpg" alt="linkedin logo"></li>
 					</ul>
 				</div>
-				<img src="images/market.jpg" class="grid_3 omega">
+				<div class="grid_3 omega">
+					<img src="./images/market.jpg" alt="market.jpg">
+				</div>
 			</article>
 
-			<article class="container_12 article3">
+			<article class="container_12 article">
 				<div class="grid_9 alpha">
 					<h2>Five myths of pre-seed investing </h2>
 					<span class="author">Anamitra Banerji</span>
@@ -160,16 +180,18 @@
 						<a href="read-more">Read More</a>
 					</p>
 					<ul>
-						<li><img src="images/icons/twitter.png"></li>
-						<li><img src="images/icons/tumblr.png"></li>
-						<li><img src="images/icons/pinterest.png"></li>
-						<li><img src="images/icons/linkedin.jpg"></li>
+						<li><img src="./images/icons/twitter.png" alt="twitter logo"></li>
+						<li><img src="./images/icons/tumblr.png" alt="tumblr logo"></li>
+						<li><img src="./images/icons/pinterest.png" alt="pinterest logo"></li>
+						<li><img src="./images/icons/linkedin.jpg" alt="linkedin logo"></li>
 					</ul>
 				</div>
-				<img src="images/preseed.jpg" class="grid_3 omega">
+				<div class="grid_3 omega">
+					<img src="./images/preseed.jpg" alt="preseed.jpg">
+				</div>
 			</article>
 
-			<article class="container_12 article3">
+			<article class="container_12 article">
 				<div class="grid_9 alpha">
 					<h2>How publishers will survive Facebook’s newsfeed change </h2>
 					<span class="author">Michael Rucker</span>
@@ -177,21 +199,20 @@
 						<a href="read-more">Read More</a>
 					</p>
 					<ul>
-						<li><img src="images/icons/twitter.png"></li>
-						<li><img src="images/icons/tumblr.png"></li>
-						<li><img src="images/icons/pinterest.png"></li>
-						<li><img src="images/icons/linkedin.jpg"></li>
+						<li><img src="./images/icons/twitter.png" alt="twitter logo"></li>
+						<li><img src="./images/icons/tumblr.png" alt="tumblr logo"></li>
+						<li><img src="./images/icons/pinterest.png" alt="pinterest logo"></li>
+						<li><img src="./images/icons/linkedin.jpg" alt="linkedin logo"></li>
 					</ul>
 				</div>
-				<img src="images/publisher.jpg" class="grid_3 omega">
+				<div class="grid_3 omega">
+					<img src="./images/publisher.jpg" alt="publisher.jpg" class="grid_3 omega">
+				</div>
 			</article>
 
 
-			<div class="allblack container_12">
-				<div class="container_12">
-		 			<img class="grid_2" src="images/logo/tech.jpg" height="200" width="200">
-				</div>
-				<article class="container_12 article4">
+			<div class="allblack">
+				<article class="article4">
 					<div class="grid_4 alpha left" >
 						<h1 class="crunch">Crunch Network</h1>
 						<ul >
@@ -226,25 +247,25 @@
 				</article>
 				<hr>
 
-				<footer class="footer container_12">
+				<footer class="footer">
 					<div class="container_16">
 						<div class="grid_5 alpha left">
-							<h2 c>Follow TechCrunch</h2>
+							<h2>Follow TechCrunch</h2>
 							<table>
 								<tr>
-									<td><img src="images/icons/fb.png"></td>
-									<td><img src="images/icons/feed.png"></td>
-									<td><img src="images/icons/insta.jpg"></td>
-									<td><img src="images/icons/pinterest.png"></td>
-									<td><img src="images/icons/stumble.png"></td>
+									<td><img src="./images/icons/fb.png" alt="fb logo"></td>
+									<td><img src="./images/icons/feed.png" alt="feed logo"></td>
+									<td><img src="./images/icons/insta.jpg" alt="insta logo"></td>
+									<td><img src="./images/icons/pinterest.png" alt="pinterest logo"></td>
+									<td><img src="./images/icons/stumble.png" alt="stumble logo"></td>
 								</tr>
 
 								<tr>
-									<td><img src="images/icons/tumblr.png"></td>
-									<td><img src="images/icons/twitter.png"></td>
-									<td><img src="images/icons/youtube.jpg"></td>
-									<td><img src="images/icons/linkedin.jpg"></td>
-									<td><img src="images/icons/googleplus.png"></td>
+									<td><img src="./images/icons/tumblr.png" alt="tumblr logo"></td>
+									<td><img src="./images/icons/twitter.png" alt="twitter logo"></td>
+									<td><img src="./images/icons/youtube.jpg" alt="youtube logo"></td>
+									<td><img src="./images/icons/linkedin.jpg" alt="linkedin logo"></td>
+									<td><img src="./images/icons/googleplus.png" alt="google+ logo"></td>
 								</tr>
 							</table>
 						</div>
@@ -253,23 +274,23 @@
 							<h2>TechCrunch Apps</h2>
 							<table>
 								<tr>
-									<td><img src="images/icons/apple.png"></td>
-									<td><img src="images/icons/android.png"></td>
-									<td><img src="images/icons/windows.png"></td>	
+									<td><img src="./images/icons/apple.png" alt="mac logo"></td>
+									<td><img src="./images/icons/android.png" alt="android logo"></td>
+									<td><img src="./images/icons/windows.png" alt="windows logo"></td>	
 								</tr>
 							</table>
 						</div>
 
 						<div class="grid_6 omega">
 							<h2>Subscribe to The Daily Crunch</h2>
-							<h3>Latest headlines delivered to you daily</h3>
+							<h5>Latest headlines delivered to you daily</h5>
 							<input type="text" name="email" placeholder="Enter Email Address">
 							<button>SUBSCRIBE</button>
 						</div>
 					</div>
 				</footer>
 
-				<div class="bottom container_12 left">
+				<div class="container_12 bottom left endlast">
 					<ul>
 						<li><span>© 2013-2018 Oath Tech Network. All rights reserved.</span></li>
 						<li><a href="">Privacy Policy</a></li>
@@ -280,7 +301,7 @@
 						<li><span>Fonts By</span><a href="">Webtype</a></li>
 					</ul>
 				</div>
-			</div>
-		</div>
+			</div><!--black portion ends-->
+		</div><!--container ends-->
 	</body>
 </html>

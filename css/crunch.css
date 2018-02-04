@@ -1,7 +1,6 @@
-.container_12{
-	margin-top: 10px;
-	margin-bottom: 10px;
 
+.logo{
+	margin-top: 30px;
 }
 .navigation{
 	margin-top: 50px;
@@ -15,8 +14,11 @@
 	font-size: 22px;
 }
 .search{
-	margin-top: 50px;
+	margin-top: 60px;
 
+}
+.videotech{
+	width: 500px;
 }
 .sidebar img{
 	width: 150 px;
@@ -25,46 +27,16 @@
 .sidebar table td{
 	margin-top: 40px;
 }
-.article1 ul li{
+.article ul li{
 display: inline;
 list-style: none;
-
 margin-left: 0px;
-
-}
-.article2 ul li{
-display: inline;
-list-style: none;
-
-margin-left: 0px;
-
-}
-.article3 ul li{
-display: inline;
-list-style: none;
-
-margin-left: 0px;
-
 }
 
-.allblack h1{
+.allblack h1,.allblack h2,.allblack h3,.allblack h5,.allblack span,.allblack a,.allblack li{
 	color: #fff;
 }
-.allblack h2{
-	color: #fff;
-}
-.allblack h3{
-	color: #fff;
-}
-.allblack span{
-	color: #fff;
-}
-.allblack a{
-	color: #fff;
-}
-.allblack li{
-	color: #fff;
-}
+
 
 
 .article4 li{
@@ -91,6 +63,10 @@ list-style: none;
 margin: 5px 0;
 padding: 5px;
 }
+.allblack{
+	background-color: black;
+	text-decoration-color: white;
+}
 
 .bottom li a{
 	text-decoration: none;
@@ -98,10 +74,7 @@ padding: 5px;
 .bottom li a:hover{
 	text-decoration: underline;
 }
-.allblack{
-	background-color: black;
-	text-decoration-color: white;
-}
+
 
 .author{
 	color: #089e00;
@@ -123,4 +96,9 @@ padding: 5px;
 }
 .crunch{
 	width:300px;
+}
+
+.endlast{
+	margin-top: 50px;
+
 }
